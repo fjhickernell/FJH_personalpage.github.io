@@ -41,19 +41,14 @@
     "vendor/font-awesome/brands"
 ;
 
-/* Fix employer sidebar icon line-break issue 
-.author__desktop i {
-  display: inline-block;
-  width: auto;
-  min-width: 1em;
-  vertical-align: middle;
-}
-*/
+/* ------------------------------------------------------------------
+   CUSTOM STYLES
+   ------------------------------------------------------------------ */
 
-/* Fix carriage return issue with employer sidebar link */
+/* Fix employer sidebar icon and link alignment */
 .employer-item .icon-text-pair {
   display: inline-flex;
-  align-items: baseline; /* ← Use baseline for text alignment */
+  align-items: baseline;
   gap: 0.4em;
 }
 
@@ -62,24 +57,5 @@
   margin: 0;
   line-height: 1;
   vertical-align: baseline;
-  font-size: 0.95em; /* Optional: fine-tune if icon seems too tall */
+  font-size: 0.95em;
 }
-
-/* === Custom sidebar tweaks for employer link === */
-/*
-.employer-inline {
-  display: flex;
-  align-items: center;
-  gap: 0.4em;
-}
-
-.employer-inline i {
-  margin: 0;
-  display: inline-block;
-}
-
-.employer-inline a {
-  display: inline;
-  margin: 0;
-}
-  */
