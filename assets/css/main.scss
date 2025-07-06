@@ -53,13 +53,16 @@
 /* Fix carriage return issue with employer sidebar link */
 .employer-item .icon-text-pair {
   display: inline-flex;
-  align-items: center;
+  align-items: baseline; /* ← Use baseline for text alignment */
   gap: 0.4em;
 }
 
 .employer-item .icon-text-pair i {
   display: inline-block;
   margin: 0;
+  line-height: 1;
+  vertical-align: baseline;
+  font-size: 0.95em; /* Optional: fine-tune if icon seems too tall */
 }
 
 /* === Custom sidebar tweaks for employer link === */
