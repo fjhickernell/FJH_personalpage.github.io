@@ -40,3 +40,20 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* === Custom sidebar tweaks for employer link === */
+.employer-inline {
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+}
+
+.employer-inline i {
+  margin: 0;
+  display: inline-block;
+}
+
+.employer-inline a {
+  display: inline;
+  margin: 0;
+}
