@@ -29,7 +29,7 @@ author:
   location         : "Chicago, IL, USA"
   employer         : "[Illinois Institute of Technology](https://www.iit.edu/)" # Name of the employer or institution
   position         : "Professor of Applied Mathematics" # Position title 
-  uri              : "https://www.iit.edu/directory/people/fred-hickernell"
+  url              : "https://www.iit.edu/directory/people/fred-hickernell"
   email            : "hickernell@illinoistech.edu" 
 
   # Academic websites
