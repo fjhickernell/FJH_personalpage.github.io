@@ -41,12 +41,25 @@
     "vendor/font-awesome/brands"
 ;
 
-/* Fix employer sidebar icon line-break issue */
+/* Fix employer sidebar icon line-break issue 
 .author__desktop i {
   display: inline-block;
   width: auto;
   min-width: 1em;
   vertical-align: middle;
+}
+*/
+
+/* Fix carriage return issue with employer sidebar link */
+.employer-item .icon-text-pair {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+}
+
+.employer-item .icon-text-pair i {
+  display: inline-block;
+  margin: 0;
 }
 
 /* === Custom sidebar tweaks for employer link === */
