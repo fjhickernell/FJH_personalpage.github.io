@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "This will be my title"
+title: "This will be my title and it will be amazing"
 author_profile: true
 redirect_from: 
   - /about/
